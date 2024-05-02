@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+    background-color: rgb(27, 115, 184);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.main
+{
+    background-color: aliceblue;
+    width: 500px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 9px 5px 10px rgb(0, 0, 0);
+    transition: all 0.2;
+}
+
+.main img
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.main h3{
+    background-color: rgb(27, 115, 184);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.published
+{
+    text-align: left;
+    height: auto;
+    margin-left: 12px;
+}
+
+.main h1{
+    text-align: left;
+    height: auto;
+    font-size: xx-large;
+    margin-left: 12px;
+}
+
+.main p
+{
+    text-align: left;
+    margin-left: 12px;
+}
+
+.creator
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.creator img
+{
+    margin-left: 12px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.soc
+{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: #ffffff;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    /* overflow: hidden; */
+    transition-duration: .3s;
+    margin: 0px 7.5px 0px 7.5px;
+  }
+  
+  .containerOne:hover {
+    background-color: #000000;
+    transition-duration: .3s;
+    scale: 1.1;
+  }
+  .containerTwo:hover {
+      background-color: #000000;
+      transition-duration: .3s;
+      scale: 1.1;
+  }
+  .containerThree:hover {
+      background-color: #000000;
+      transition-duration: .3s;
+      scale: 1.1;
+  }
+  
+  .containerFour:hover {
+      background-color: #000000;
+      transition-duration: .3s;
+      scale: 1.1;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .githubSVG
+  {
+      width: 24px;
+  }
+  
+  .socialSvg path {
+    fill: #000000;
+  }
+  
+  .socialContainer:hover .instagramSvg path{
+    fill: rgb(214, 16, 148);
+  }
+  .socialContainer:hover .githubSVG path{
+    fill: rgb(255, 255, 255);
+  }
+  .socialContainer:hover .linkdinSvg path{
+    fill: rgb(0, 64, 182);
+  }
+  .socialContainer:hover .whatsappSvg path{
+    fill: #25D366;
+  }
+  
+    @keyframes slide-in-top {
+      0% {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+    
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
